@@ -1,0 +1,22 @@
+{
+  "name": "influxjs",
+  "version": "1.0.0",
+  "description": "A simple application to demonstrate InfluxDB + Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "InfluxDB, Javascript, Draft.dev"
+  ],
+  "author": "Nicolas Bohorquez",
+  "license": "Apache 2",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.14.0",
+    "@influxdata/influxdb-client-apis": "^1.14.0",
+    "asciichart": "^1.5.25",
+    "blessed": "^0.1.81",
+    "chalk": "^4.1.1",
+    "eventsource": "^1.1.0"
+  }
+}
